@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="license_plates_wizard_form" model="ir.ui.view">
+        <field name="name">license.plates.wizard.form</field>
+        <field name="model">license.plates.wizard</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+           <form>
+                    <group>
+                        <field name='license_plates_id'/>
+                        <field name="description" required="1"/>
+                    </group>
+                <footer>
+                    <button name="cancel_licence_plates" string="CONFIRM" type="object" class="btn btn-success"/>
+                    <button special='cancel' string='CANCEL' class="btn btn-danger"/>
+                </footer>
+            </form>
+         </field>
+    </record>
+
+</odoo>
