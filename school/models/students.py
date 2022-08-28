@@ -111,6 +111,21 @@ class Students(models.Model):
       return super(Students, self).create(vals)
 
 
+    @api.depend('name','is_student')
+    def show_notification(self):
+        if self.is_student:
+            return {
+                'type': 'ir.actions.client',
+                'tag': 'display_notification',
+                'params': {
+                    'title': _('Notification OT!'),
+                    'message': 'Notificación de OT aviso',
+                    'sticky': False,
+                    'type': 'warning',
+                    }
+                }
+
+
 
 class StudentsLines(models.Model):
 
