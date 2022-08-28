@@ -111,7 +111,7 @@ class Students(models.Model):
       return super(Students, self).create(vals)
 
 
-    @api.depend('name','is_student')
+    @api.depends('name','is_student')
     def show_notification(self):
         if self.is_student:
             return {
