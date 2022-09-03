@@ -33,6 +33,9 @@
                             class="btn-primary"
                             attrs="{'invisible': [('is_student', '!=', False)]}"/>
                     </header>
+                    <div class="alert alert-danger" role="alert" style="margin-bottom: 0px;">
+                        Este es un mensaje de prueba Introdoo
+                    </div>
                     <sheet>
                         <div class="oe_button_box" name="button_box">
                             <button class="oe_stat_button" type="object" name="get_license_plates" icon="fa-book">

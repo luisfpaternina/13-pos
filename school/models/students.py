@@ -108,20 +108,7 @@ class Students(models.Model):
     def create(self, vals):
     # Heredar la función create para crear un contacto desde estudiantes
       self.create_student_partner()
-      self.show_notification()
       return super(Students, self).create(vals)
-
-
-    def show_notification(self):
-        return {
-        'type': 'ir.actions.client',
-        'tag': 'display_notification',
-        'params': {
-        'title': _('Notificacion canal introdoo'),
-        'message': 'mensaje Introdoo',
-        'type': 'warning',
-            }
-        }
 
 
 
