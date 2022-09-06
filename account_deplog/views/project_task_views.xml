@@ -1,0 +1,36 @@
+<odoo>
+  <data>
+    <record id="project_task_view_form" model="ir.ui.view">
+      <field name="name">project.task.view.form.inherit.account_deplog</field>
+      <field name="model">project.task</field>
+      <field name="inherit_id" ref="studio_customization.odoo_studio_project__0901bc7a-dcf1-4279-be75-6cc6e4714d3f"/>
+      <field name="arch" type="xml">
+          <xpath expr="//page[@name='studio_page_VSDjI']/group" position="after">
+            <field name="sale_ids" context="{'default_task_id': id,}">
+              <tree string="Quotation" class="o_sale_order" decoration-bf="message_needaction==True" decoration-muted="state=='cancel'" multi_edit="1" delete="0">
+                    <field name="message_needaction" invisible="1"/>
+                    <field name="name" string="Quotation Number" readonly="1"/>
+                    <field name="create_date" string="Create Date"/>
+                    <field name="commitment_date"/>
+                    <field name="expected_date"/>
+                    <field name="partner_id" readonly="1"/>
+                    <field name="user_id" optional="show"/>
+                    <field name="team_id" optional="hide"/>
+                    <field name="company_id" groups="base.group_multi_company" optional="show" readonly="1"/>
+                    <field name="amount_untaxed" sum="Total Tax Excluded" widget="monetary" optional="hide"/>
+                    <field name="amount_tax" sum="Tax Total" widget="monetary" optional="hide"/>
+                    <field name="amount_total" sum="Total Tax Included" widget="monetary" optional="show"/>
+                    <field name="currency_id" invisible="1"/>
+                    <field name="state" optional="show"/>
+                    <field name="invoice_status" optional="hide"/>
+                    <field name="activity_exception_decoration" widget="activity_exception"/>
+                </tree>
+            </field>
+          </xpath>
+          <xpath expr="//page[@name='studio_page_VSDjI']/group" position="attributes">
+            <attribute name="invisible">1</attribute>
+          </xpath>
+      </field>
+  </record>
+  </data>
+</odoo>

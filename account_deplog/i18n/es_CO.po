@@ -1,0 +1,304 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_deplog
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-01 21:03+0000\n"
+"PO-Revision-Date: 2020-06-01 21:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_deplog
+#: model:ir.actions.report,print_report_name:account_deplog.account_invoices_deplog
+msgid "(object._get_report_base_filename())"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<b>CLIENTE:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<b>FECHA:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid ""
+"<b>Lorem Ipsum 12345<br/>\n"
+"                                Dolor sit 1234 amet 4211<br/>\n"
+"                                Fecha 29/05/2020</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<b>PAGO:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>CONTACTO:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>DIRECCION:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>DOC. TRANS:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>ETA:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>IDO:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>INCOTERM:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>MERCANCIA:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>NIT:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>PEDIDO:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>TASA:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>TELEFONO:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<br/>\n"
+"                            <b>VENCE:</b>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Subtotal</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr "Subtotal"
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr "Precio Total"
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<span>Description</span>"
+msgstr "<span>Descripción</span>"
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<span>Disc.%</span>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<span>Quantity</span>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<span>Source Document</span>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<span>Taxes</span>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<span>Unit Price</span>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<strong>Subtotal</strong>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<strong>Total en Letras:</strong>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.sale_order_view_form
+msgid "Actualizar Tarea"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.sale_order_view_form
+msgid "Actualizar Todo"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "Email:"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "FACTURA DE VENTA<br/>"
+msgstr ""
+
+#. module: account_deplog
+#: model:ir.actions.report,name:account_deplog.account_invoices_deplog
+msgid "Invoices Deplog"
+msgstr "Facturas Deplog"
+
+#. module: account_deplog
+#: model:ir.model,name:account_deplog.model_account_move
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "Logo"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "NIT:"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "Phone:"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "Please use the following communication for your payment :"
+msgstr "Por favor utilice la siguiente referencia al realizar su pago: "
+
+#. module: account_deplog
+#: model:ir.model.fields,field_description:account_deplog.field_project_task__sale_ids
+msgid "Predidos de Venta"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "Profesionalismo, Ética y Pasión"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.sale_order_view_form
+msgid "Referencia"
+msgstr ""
+
+#. module: account_deplog
+#: model:ir.model.fields,field_description:account_deplog.field_sale_order__num_operation
+msgid "Referencia1"
+msgstr ""
+
+#. module: account_deplog
+#: model:ir.model,name:account_deplog.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid ""
+"TARIFA 9.66X 1000. FACTURACION VIGENCIA 18 MESES NORMATIVIDAD 000055 DEL 14 "
+"DE JULIO DE 2016. IVA RÉGIMEN COMÚN - NO SOMOS GRANDES CONTRIBUYENTES - NO "
+"SOMOS AUTORETENEDORES"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.sale_order_view_form
+msgid "Tareas"
+msgstr ""
+
+#. module: account_deplog
+#: model:ir.model.fields,field_description:account_deplog.field_sale_order__task_id
+msgid "Tareas1"
+msgstr ""
+
+#. module: account_deplog
+#: model:ir.model,name:account_deplog.model_project_task
+msgid "Task"
+msgstr "Tarea"
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_layout
+msgid "Web:"
+msgstr ""
+
+#. module: account_deplog
+#: model_terms:ir.ui.view,arch_db:account_deplog.report_invoice_deplog_document
+msgid "on"
+msgstr "en"
