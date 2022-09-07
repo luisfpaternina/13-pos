@@ -2,12 +2,28 @@
 <odoo>
 
     <record id="automatization_associated_account_move" model="base.automation">
-        <field name="name">ACTUALIZAR ASOCIADOS</field>
+        <field name="name">ASOCIADOS</field>
         <field name="model_id" ref="account.model_account_move"/>
         <field name="state">code</field>
         <field name="trigger">on_create_or_write</field>
         <field name="active" eval="True"/>
-        <field name="code"></field>
+        <field name="code">if record.state == 'draft':
+  for line in record.invoice_line_ids:
+    if line.partner_id:
+      line.write({'associated_id': line.partner_id.id})</field>
+    </record>
+
+    <record id="automatization_associated_account_move_state" model="base.automation">
+        <field name="name">NO CAMBIAR ASOCIADO AL PUBLICAR ASIENTOS</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="state">code</field>
+        <field name="trigger">on_write</field>
+        <field name="active" eval="True"/>
+        <field name="code">if record.state == 'posted':
+  for line in record.invoice_line_ids:
+    if line.associated_id:
+      line.write({'partner_id': line.associated_id.id})
+</field>
     </record>
 
 </odoo>
