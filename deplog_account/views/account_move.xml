@@ -10,10 +10,6 @@
                 <field name="associated_id"/>
             </xpath>
 
-            <xpath expr="//field[@name='partner_id']" position="after">
-                <button name="gt_save_associated" string="get associated" type="object"/>
-            </xpath>
-
         </field>
     </record>
 </odoo>
