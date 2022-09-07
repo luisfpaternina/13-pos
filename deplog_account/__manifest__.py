@@ -15,6 +15,7 @@
 
         'account_accountant',
         'account',
+        'contacts',
         'base',
         'base_automation',
 
