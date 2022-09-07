@@ -21,7 +21,8 @@
     ],
 
     'data': [
-       
+        
+        'data/base_automatization.xml',
         'views/account_move.xml',
                    
     ],
