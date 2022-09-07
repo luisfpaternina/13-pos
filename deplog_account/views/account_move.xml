@@ -7,6 +7,7 @@
         <field name="arch" type="xml"> 
             <xpath expr="//form[1]/sheet[1]/notebook[1]/page[1]/field[@name='invoice_line_ids']/tree[1]/field[@name='partner_id']" position="after">
                 <field name="associated_id"/>
+                <button name="save_associated" string="Asociado" type="object"/>
             </xpath>
         </field>
     </record>
