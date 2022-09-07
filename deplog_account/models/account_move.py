@@ -14,4 +14,3 @@ class AccountMove(models.Model):
             wrong_lines = move.is_invoice() and move.line_ids.filtered(lambda aml: aml.partner_id != move.commercial_partner_id and not aml.display_type)
             if wrong_lines:
                 wrong_lines.partner_id = move.commercial_partner_id.id
-        return rec
