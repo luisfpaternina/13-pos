@@ -16,6 +16,7 @@
         'account_accountant',
         'account',
         'base',
+        'base_automation',
 
     ],
 
